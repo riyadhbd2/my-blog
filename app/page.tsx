@@ -1,11 +1,10 @@
-import { Button } from '@/components/ui/button'
+import Navigation from '@/components/Navigation'
 import React from 'react'
 
 const Home = () => {
   return (
     <div>
-      <h1 className='text-4xl '>Hello</h1>
-      <Button>Button</Button>
+      <Navigation/>
     </div>
   )
 }
