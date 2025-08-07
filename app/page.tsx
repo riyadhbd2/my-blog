@@ -1,3 +1,4 @@
+import CategoriesSection from '@/components/CategoriesSection'
 import FeaturedSection from '@/components/FeaturedSection'
 import HeroSection from '@/components/HeroSection'
 import React from 'react'
@@ -9,6 +10,7 @@ const Home = () => {
       <main>
         <HeroSection/>
         <FeaturedSection/>
+        <CategoriesSection/>
       </main>
     </div>
   )
